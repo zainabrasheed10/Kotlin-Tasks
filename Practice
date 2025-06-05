@@ -1,0 +1,31 @@
+fun main() {
+    //Printing of values to console
+    
+    var age = 25
+    val country = "Pakistan"
+    println("My age is: $age")
+    println("Country name is: $country")
+    
+    
+    //Calculation of 2 Numbers
+    
+    println("Enter First Number: ")
+    val a = readln().toInt()
+    println("Enter Second Number: ")
+    val b = readln().toInt()
+
+    println("Sum of 2 numbers is: ${a+b}")
+    println("Difference of 2 numbers is: ${a-b}")
+    println("Product of 2 numbers is: ${a*b}")
+    println("Quotient of 2 numbers is: ${a/b}")
+
+
+    //If-else statement
+    var score = 35
+    
+    if (score >= 50){
+        println("Passed")
+    } else{
+        println("Failed")
+    }
+}
