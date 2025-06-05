@@ -1,5 +1,5 @@
 fun main() {
-    //Printing of values to console
+    //Printing of values to console (Task 1)
     
     var age = 25
     val country = "Pakistan"
@@ -7,7 +7,7 @@ fun main() {
     println("Country name is: $country")
     
     
-    //Calculation of 2 Numbers
+    //Calculation of 2 Numbers (Task 2)
     
     println("Enter First Number: ")
     val a = readln().toInt()
@@ -20,7 +20,7 @@ fun main() {
     println("Quotient of 2 numbers is: ${a/b}")
 
 
-    //If-else statement
+    //If-else statement (Task 3)
     var score = 35
     
     if (score >= 50){
